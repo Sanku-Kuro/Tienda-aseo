@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruma & Esencia | Cuidado Personal</title>
+   
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    
+    <header>
+        <div class="logo">
+            <h1>BRUMA & ESENCIA</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+    <section class="hero">
+        <h2>Renueva tu ritual diario</h2>
+        <p>Utensilios premium diseñados para tu bienestar y el del planeta.</p>
+    </section>
+
+    
+    <main class="container" id="productos">
+        <div class="section-title">
+            <h2>Nuestra Colección</h2>
+            <p>Calidad, ergonomía y diseño en cada pieza</p>
+        </div>
+
+        <div class="grid-productos">
+            
+            <div class="card">
+                <div class="card-img" style="background: #e9ecef;">Cepillo Dental de Bambú</div>
+                <div class="card-info">
+                    <h3>Cepillo Pro-Eco</h3>
+                    <p>Cerdas suaves con infusión de carbón activado.</p>
+                    <span class="price">$4.500 CLP</span>
+                    <button class="btn-add">Añadir al carrito</button>
+                </div>
+            </div>
+
+           
+            <div class="card">
+                <div class="card-img" style="background: #d8e2dc;">Esponja de Luffa Natural</div>
+                <div class="card-info">
+                    <h3>Exfoliante Orgánico</h3>
+                    <p>Fibra vegetal natural para una piel renovada.</p>
+                    <span class="price">$3.200 CLP</span>
+                    <button class="btn-add">Añadir al carrito</button>
+                </div>
+            </div>
+
+           
+            <div class="card">
+                <div class="card-img" style="background: #faedcd;">Set de Afeitado Clásico</div>
+                <div class="card-info">
+                    <h3>Maquinilla de Acero</h3>
+                    <p>Cuerpo de acero inoxidable de alta precisión.</p>
+                    <span class="price">$12.990 CLP</span>
+                    <button class="btn-add">Añadir al carrito</button>
+                </div>
+            </div>
+
+            
+            <div class="card">
+                <div class="card-img" style="background: #f1f1f1;">Peine de Madera</div>
+                <div class="card-info">
+                    <h3>Peine de Sándalo</h3>
+                    <p>Antiestático y suave con tu cuero cabelludo.</p>
+                    <span class="price">$5.800 CLP</span>
+                    <button class="btn-add">Añadir al carrito</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <section class="contacto" id="contacto">
+        <div class="section-title">
+            <h2>Ponte en Contacto</h2>
+            <p>Estamos aquí para ayudarte con tu pedido</p>
+        </div>
+        <div class="form-contacto">
+            <form onsubmit="alert('Gracias por escribirnos. Te contactaremos pronto.'); return false;">
+                <div class="form-group">
+                    <label>Nombre Completo</label>
+                    <input type="text" placeholder="Ej. Juan Pérez" required>
+                </div>
+                <div class="form-group">
+                    <label>Correo Electrónico</label>
+                    <input type="email" placeholder="correo@ejemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label>Mensaje</label>
+                    <textarea rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+                </div>
+                <button type="submit" class="btn-add">Enviar Mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2026 Bruma & Esencia - Tienda de Aseo Personal</p>
+        <p>Santiago, Chile | Contacto: hola@brumaesencia.cl</p>
+        <p>Teléfono: +56 9 1234 5678</p>
+    </footer>
+
+</body>
+</html>
