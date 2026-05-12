@@ -240,3 +240,14 @@ footer {
     nav ul { margin-top: 20px; gap: 15px; }
     .hero h2 { font-size: 2.2rem; }
 }
+
+
+.card {
+  
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
